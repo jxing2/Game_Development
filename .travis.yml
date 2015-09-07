@@ -1,0 +1,15 @@
+language : cpp
+compiler : clang
+before_install :
+script: 
+ - sudo apt-get install libgtest-dev
+ - sudo apt-get install cmake
+ - cd /usr/src/gtest 
+ - sudo cmake . 
+ - sudo cmake --build . 
+ - sudo mv libg* /usr/local/lib 
+ - cd -
+after_success:
+ - sudo gcc game.m.cpp -o test
+ - ls
+ - ./test.out
