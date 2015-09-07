@@ -24,4 +24,5 @@ namespace StevensDev
     std::cout << "The test number is " << test;
   }
   
-}
+} // End StevensDev namespace
+#endif
