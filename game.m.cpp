@@ -4,5 +4,5 @@
 
 int main()
 {
-  using namespace std;
+  StevensDev::Test(5);
 }
