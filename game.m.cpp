@@ -4,5 +4,7 @@
 
 int main()
 {
-  StevensDev::Test(5);
+  StevensDev::Test( 5 );
+  
+  return 0;
 }
