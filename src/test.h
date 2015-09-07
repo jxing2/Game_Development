@@ -21,7 +21,7 @@ namespace StevensDev
   inline
   Test::Test( int testNumber ) : test(testNumber)
   {
-    std::cout << "The test number is " << test;
+    std::cout << "The test number is " << test << std::endl ;
   }
   
 } // End StevensDev namespace
